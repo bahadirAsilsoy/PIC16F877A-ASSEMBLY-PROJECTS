@@ -1,0 +1,26 @@
+Warning[207] C:\USERS\BAHO\DESKTOP\PROJELER\ADC_PRJ.X\ADC_PRJ.ASM 10 : Found label after column 1. (D1)
+Warning[207] C:\USERS\BAHO\DESKTOP\PROJELER\ADC_PRJ.X\ADC_PRJ.ASM 11 : Found label after column 1. (D2)
+Warning[207] C:\USERS\BAHO\DESKTOP\PROJELER\ADC_PRJ.X\ADC_PRJ.ASM 12 : Found label after column 1. (D3)
+Warning[207] C:\USERS\BAHO\DESKTOP\PROJELER\ADC_PRJ.X\ADC_PRJ.ASM 13 : Found label after column 1. (G1)
+Warning[207] C:\USERS\BAHO\DESKTOP\PROJELER\ADC_PRJ.X\ADC_PRJ.ASM 14 : Found label after column 1. (G2)
+Warning[207] C:\USERS\BAHO\DESKTOP\PROJELER\ADC_PRJ.X\ADC_PRJ.ASM 15 : Found label after column 1. (G3)
+Warning[207] C:\USERS\BAHO\DESKTOP\PROJELER\ADC_PRJ.X\ADC_PRJ.ASM 17 : Found label after column 1. (w_temp)
+Warning[207] C:\USERS\BAHO\DESKTOP\PROJELER\ADC_PRJ.X\ADC_PRJ.ASM 18 : Found label after column 1. (status_temp)
+Warning[207] C:\USERS\BAHO\DESKTOP\PROJELER\ADC_PRJ.X\ADC_PRJ.ASM 19 : Found label after column 1. (pclath_temp)
+Warning[207] C:\USERS\BAHO\DESKTOP\PROJELER\ADC_PRJ.X\ADC_PRJ.ASM 44 : Found label after column 1. (GECIKME)
+Warning[207] C:\USERS\BAHO\DESKTOP\PROJELER\ADC_PRJ.X\ADC_PRJ.ASM 48 : Found label after column 1. (LOOP3)
+Warning[207] C:\USERS\BAHO\DESKTOP\PROJELER\ADC_PRJ.X\ADC_PRJ.ASM 51 : Found label after column 1. (LOOP2)
+Warning[207] C:\USERS\BAHO\DESKTOP\PROJELER\ADC_PRJ.X\ADC_PRJ.ASM 54 : Found label after column 1. (LOOP1)
+Warning[207] C:\USERS\BAHO\DESKTOP\PROJELER\ADC_PRJ.X\ADC_PRJ.ASM 64 : Found label after column 1. (GECIKME_50MSN)
+Warning[207] C:\USERS\BAHO\DESKTOP\PROJELER\ADC_PRJ.X\ADC_PRJ.ASM 71 : Found label after column 1. (D50_D)
+Warning[207] C:\USERS\BAHO\DESKTOP\PROJELER\ADC_PRJ.X\ADC_PRJ.ASM 78 : Found label after column 1. (ADC_AYARLA)
+Message[302] C:\USERS\BAHO\DESKTOP\PROJELER\ADC_PRJ.X\ADC_PRJ.ASM 92 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\BAHO\DESKTOP\PROJELER\ADC_PRJ.X\ADC_PRJ.ASM 97 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[207] C:\USERS\BAHO\DESKTOP\PROJELER\ADC_PRJ.X\ADC_PRJ.ASM 103 : Found label after column 1. (ADC_OKU)
+Warning[207] C:\USERS\BAHO\DESKTOP\PROJELER\ADC_PRJ.X\ADC_PRJ.ASM 109 : Found label after column 1. (DONGU)
+Message[302] C:\USERS\BAHO\DESKTOP\PROJELER\ADC_PRJ.X\ADC_PRJ.ASM 118 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[207] C:\USERS\BAHO\DESKTOP\PROJELER\ADC_PRJ.X\ADC_PRJ.ASM 124 : Found label after column 1. (PORT_AYARLA)
+Message[302] C:\USERS\BAHO\DESKTOP\PROJELER\ADC_PRJ.X\ADC_PRJ.ASM 127 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\BAHO\DESKTOP\PROJELER\ADC_PRJ.X\ADC_PRJ.ASM 128 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Warning[207] C:\USERS\BAHO\DESKTOP\PROJELER\ADC_PRJ.X\ADC_PRJ.ASM 136 : Found label after column 1. (BASLA)
+Warning[207] C:\USERS\BAHO\DESKTOP\PROJELER\ADC_PRJ.X\ADC_PRJ.ASM 140 : Found label after column 1. (XD)

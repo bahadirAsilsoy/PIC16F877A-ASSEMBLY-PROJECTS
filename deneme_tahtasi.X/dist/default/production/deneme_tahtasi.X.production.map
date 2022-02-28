@@ -1,0 +1,49 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Mon Dec 06 09:43:13 2021
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000002    program   0x000004
+                   .org_1       code   0x000004    program   0x000056
+.config_2007_BUILD/DEFAULT/PRODUCTION/DENEME_       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x00002e      
+                            0x002007    0x002007      
+            48 out of 8454 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    BASLA   0x000028    program     static C:\Users\Baho\Desktop\projeler\deneme_tahtasi.X\deneme_tahtasi.asm
+                    DONGU   0x00002d    program     static C:\Users\Baho\Desktop\projeler\deneme_tahtasi.X\deneme_tahtasi.asm
+                  GECIKME   0x000010    program     static C:\Users\Baho\Desktop\projeler\deneme_tahtasi.X\deneme_tahtasi.asm
+                   KAYDIR   0x000025    program     static C:\Users\Baho\Desktop\projeler\deneme_tahtasi.X\deneme_tahtasi.asm
+                    LOOP1   0x000016    program     static C:\Users\Baho\Desktop\projeler\deneme_tahtasi.X\deneme_tahtasi.asm
+                    LOOP2   0x000014    program     static C:\Users\Baho\Desktop\projeler\deneme_tahtasi.X\deneme_tahtasi.asm
+                    LOOP3   0x000012    program     static C:\Users\Baho\Desktop\projeler\deneme_tahtasi.X\deneme_tahtasi.asm
+             PORTB_AYARLA   0x00001d    program     static C:\Users\Baho\Desktop\projeler\deneme_tahtasi.X\deneme_tahtasi.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  GECIKME   0x000010    program     static C:\Users\Baho\Desktop\projeler\deneme_tahtasi.X\deneme_tahtasi.asm
+                    LOOP3   0x000012    program     static C:\Users\Baho\Desktop\projeler\deneme_tahtasi.X\deneme_tahtasi.asm
+                    LOOP2   0x000014    program     static C:\Users\Baho\Desktop\projeler\deneme_tahtasi.X\deneme_tahtasi.asm
+                    LOOP1   0x000016    program     static C:\Users\Baho\Desktop\projeler\deneme_tahtasi.X\deneme_tahtasi.asm
+             PORTB_AYARLA   0x00001d    program     static C:\Users\Baho\Desktop\projeler\deneme_tahtasi.X\deneme_tahtasi.asm
+                   KAYDIR   0x000025    program     static C:\Users\Baho\Desktop\projeler\deneme_tahtasi.X\deneme_tahtasi.asm
+                    BASLA   0x000028    program     static C:\Users\Baho\Desktop\projeler\deneme_tahtasi.X\deneme_tahtasi.asm
+                    DONGU   0x00002d    program     static C:\Users\Baho\Desktop\projeler\deneme_tahtasi.X\deneme_tahtasi.asm
+
+

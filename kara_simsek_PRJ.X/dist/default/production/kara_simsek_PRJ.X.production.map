@@ -1,0 +1,55 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Sun Nov 21 18:28:22 2021
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000002    program   0x000004
+                   .org_1       code   0x000004    program   0x000078
+.config_2007_BUILD/DEFAULT/PRODUCTION/KARA_SI       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x00003f      
+                            0x002007    0x002007      
+            65 out of 8454 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    BASLA   0x00002e    program     static C:\Users\Baho\Desktop\projeler\kara_simsek_PRJ.X\kara_simsek_PRJ.asm
+                  GECIKME   0x000010    program     static C:\Users\Baho\Desktop\projeler\kara_simsek_PRJ.X\kara_simsek_PRJ.asm
+                     LOOP   0x000016    program     static C:\Users\Baho\Desktop\projeler\kara_simsek_PRJ.X\kara_simsek_PRJ.asm
+                    LOOP2   0x000014    program     static C:\Users\Baho\Desktop\projeler\kara_simsek_PRJ.X\kara_simsek_PRJ.asm
+                    LOOP3   0x000012    program     static C:\Users\Baho\Desktop\projeler\kara_simsek_PRJ.X\kara_simsek_PRJ.asm
+                  SAGAGIT   0x000022    program     static C:\Users\Baho\Desktop\projeler\kara_simsek_PRJ.X\kara_simsek_PRJ.asm
+               SAGKONTROL   0x000029    program     static C:\Users\Baho\Desktop\projeler\kara_simsek_PRJ.X\kara_simsek_PRJ.asm
+                  SOLAGIT   0x000020    program     static C:\Users\Baho\Desktop\projeler\kara_simsek_PRJ.X\kara_simsek_PRJ.asm
+               SOLKONTROL   0x000024    program     static C:\Users\Baho\Desktop\projeler\kara_simsek_PRJ.X\kara_simsek_PRJ.asm
+                    SSDON   0x00001d    program     static C:\Users\Baho\Desktop\projeler\kara_simsek_PRJ.X\kara_simsek_PRJ.asm
+                       XD   0x00003b    program     static C:\Users\Baho\Desktop\projeler\kara_simsek_PRJ.X\kara_simsek_PRJ.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  GECIKME   0x000010    program     static C:\Users\Baho\Desktop\projeler\kara_simsek_PRJ.X\kara_simsek_PRJ.asm
+                    LOOP3   0x000012    program     static C:\Users\Baho\Desktop\projeler\kara_simsek_PRJ.X\kara_simsek_PRJ.asm
+                    LOOP2   0x000014    program     static C:\Users\Baho\Desktop\projeler\kara_simsek_PRJ.X\kara_simsek_PRJ.asm
+                     LOOP   0x000016    program     static C:\Users\Baho\Desktop\projeler\kara_simsek_PRJ.X\kara_simsek_PRJ.asm
+                    SSDON   0x00001d    program     static C:\Users\Baho\Desktop\projeler\kara_simsek_PRJ.X\kara_simsek_PRJ.asm
+                  SOLAGIT   0x000020    program     static C:\Users\Baho\Desktop\projeler\kara_simsek_PRJ.X\kara_simsek_PRJ.asm
+                  SAGAGIT   0x000022    program     static C:\Users\Baho\Desktop\projeler\kara_simsek_PRJ.X\kara_simsek_PRJ.asm
+               SOLKONTROL   0x000024    program     static C:\Users\Baho\Desktop\projeler\kara_simsek_PRJ.X\kara_simsek_PRJ.asm
+               SAGKONTROL   0x000029    program     static C:\Users\Baho\Desktop\projeler\kara_simsek_PRJ.X\kara_simsek_PRJ.asm
+                    BASLA   0x00002e    program     static C:\Users\Baho\Desktop\projeler\kara_simsek_PRJ.X\kara_simsek_PRJ.asm
+                       XD   0x00003b    program     static C:\Users\Baho\Desktop\projeler\kara_simsek_PRJ.X\kara_simsek_PRJ.asm
+
+

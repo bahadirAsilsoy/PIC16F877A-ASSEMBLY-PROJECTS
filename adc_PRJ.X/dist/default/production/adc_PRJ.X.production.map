@@ -1,0 +1,55 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Tue Dec 07 12:39:13 2021
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000002    program   0x000004
+                   .org_1       code   0x000004    program   0x0000a0
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000053      
+            84 out of 8454 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+               ADC_AYARLA   0x000026    program     static C:\Users\Baho\Desktop\projeler\adc_PRJ.X\adc_PRJ.asm
+                  ADC_OKU   0x000034    program     static C:\Users\Baho\Desktop\projeler\adc_PRJ.X\adc_PRJ.asm
+                    BASLA   0x00004f    program     static C:\Users\Baho\Desktop\projeler\adc_PRJ.X\adc_PRJ.asm
+                    D50_D   0x000021    program     static C:\Users\Baho\Desktop\projeler\adc_PRJ.X\adc_PRJ.asm
+                    DONGU   0x000037    program     static C:\Users\Baho\Desktop\projeler\adc_PRJ.X\adc_PRJ.asm
+                  GECIKME   0x000010    program     static C:\Users\Baho\Desktop\projeler\adc_PRJ.X\adc_PRJ.asm
+            GECIKME_50MSN   0x00001d    program     static C:\Users\Baho\Desktop\projeler\adc_PRJ.X\adc_PRJ.asm
+                    LOOP1   0x000016    program     static C:\Users\Baho\Desktop\projeler\adc_PRJ.X\adc_PRJ.asm
+                    LOOP2   0x000014    program     static C:\Users\Baho\Desktop\projeler\adc_PRJ.X\adc_PRJ.asm
+                    LOOP3   0x000012    program     static C:\Users\Baho\Desktop\projeler\adc_PRJ.X\adc_PRJ.asm
+              PORT_AYARLA   0x000046    program     static C:\Users\Baho\Desktop\projeler\adc_PRJ.X\adc_PRJ.asm
+                       XD   0x000051    program     static C:\Users\Baho\Desktop\projeler\adc_PRJ.X\adc_PRJ.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  GECIKME   0x000010    program     static C:\Users\Baho\Desktop\projeler\adc_PRJ.X\adc_PRJ.asm
+                    LOOP3   0x000012    program     static C:\Users\Baho\Desktop\projeler\adc_PRJ.X\adc_PRJ.asm
+                    LOOP2   0x000014    program     static C:\Users\Baho\Desktop\projeler\adc_PRJ.X\adc_PRJ.asm
+                    LOOP1   0x000016    program     static C:\Users\Baho\Desktop\projeler\adc_PRJ.X\adc_PRJ.asm
+            GECIKME_50MSN   0x00001d    program     static C:\Users\Baho\Desktop\projeler\adc_PRJ.X\adc_PRJ.asm
+                    D50_D   0x000021    program     static C:\Users\Baho\Desktop\projeler\adc_PRJ.X\adc_PRJ.asm
+               ADC_AYARLA   0x000026    program     static C:\Users\Baho\Desktop\projeler\adc_PRJ.X\adc_PRJ.asm
+                  ADC_OKU   0x000034    program     static C:\Users\Baho\Desktop\projeler\adc_PRJ.X\adc_PRJ.asm
+                    DONGU   0x000037    program     static C:\Users\Baho\Desktop\projeler\adc_PRJ.X\adc_PRJ.asm
+              PORT_AYARLA   0x000046    program     static C:\Users\Baho\Desktop\projeler\adc_PRJ.X\adc_PRJ.asm
+                    BASLA   0x00004f    program     static C:\Users\Baho\Desktop\projeler\adc_PRJ.X\adc_PRJ.asm
+                       XD   0x000051    program     static C:\Users\Baho\Desktop\projeler\adc_PRJ.X\adc_PRJ.asm
+
+

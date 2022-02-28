@@ -1,0 +1,47 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Sun Nov 07 14:12:12 2021
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000002    program   0x000004
+                   .org_1       code   0x000004    program   0x0000b2
+.config_2007_BUILD/DEFAULT/PRODUCTION/7SEGDIS       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x00005c      
+                            0x002007    0x002007      
+            94 out of 8454 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    BASLA   0x000024    program     static C:\Users\Baho\Desktop\projeler\7segdisplay_0-99_sayac_PRJ.X\7segdisplay_0-99_sayac_PRJ.asm
+                   DONGU1   0x000038    program     static C:\Users\Baho\Desktop\projeler\7segdisplay_0-99_sayac_PRJ.X\7segdisplay_0-99_sayac_PRJ.asm
+                   DONGU2   0x00004b    program     static C:\Users\Baho\Desktop\projeler\7segdisplay_0-99_sayac_PRJ.X\7segdisplay_0-99_sayac_PRJ.asm
+                  GECIKME   0x000010    program     static C:\Users\Baho\Desktop\projeler\7segdisplay_0-99_sayac_PRJ.X\7segdisplay_0-99_sayac_PRJ.asm
+                     LOOP   0x000014    program     static C:\Users\Baho\Desktop\projeler\7segdisplay_0-99_sayac_PRJ.X\7segdisplay_0-99_sayac_PRJ.asm
+                    LOOP2   0x000012    program     static C:\Users\Baho\Desktop\projeler\7segdisplay_0-99_sayac_PRJ.X\7segdisplay_0-99_sayac_PRJ.asm
+                 RAKAMLAR   0x000019    program     static C:\Users\Baho\Desktop\projeler\7segdisplay_0-99_sayac_PRJ.X\7segdisplay_0-99_sayac_PRJ.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  GECIKME   0x000010    program     static C:\Users\Baho\Desktop\projeler\7segdisplay_0-99_sayac_PRJ.X\7segdisplay_0-99_sayac_PRJ.asm
+                    LOOP2   0x000012    program     static C:\Users\Baho\Desktop\projeler\7segdisplay_0-99_sayac_PRJ.X\7segdisplay_0-99_sayac_PRJ.asm
+                     LOOP   0x000014    program     static C:\Users\Baho\Desktop\projeler\7segdisplay_0-99_sayac_PRJ.X\7segdisplay_0-99_sayac_PRJ.asm
+                 RAKAMLAR   0x000019    program     static C:\Users\Baho\Desktop\projeler\7segdisplay_0-99_sayac_PRJ.X\7segdisplay_0-99_sayac_PRJ.asm
+                    BASLA   0x000024    program     static C:\Users\Baho\Desktop\projeler\7segdisplay_0-99_sayac_PRJ.X\7segdisplay_0-99_sayac_PRJ.asm
+                   DONGU1   0x000038    program     static C:\Users\Baho\Desktop\projeler\7segdisplay_0-99_sayac_PRJ.X\7segdisplay_0-99_sayac_PRJ.asm
+                   DONGU2   0x00004b    program     static C:\Users\Baho\Desktop\projeler\7segdisplay_0-99_sayac_PRJ.X\7segdisplay_0-99_sayac_PRJ.asm
+
+

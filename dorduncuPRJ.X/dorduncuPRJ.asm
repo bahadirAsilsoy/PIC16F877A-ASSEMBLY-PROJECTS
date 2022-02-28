@@ -1,0 +1,143 @@
+#include    <p16f877a.inc>
+    
+;00 DAN BASLAYIP Ç?FTER Ç?FTER SAYAN 2X7 D?SPLAY	    
+D1		EQU	    0x20
+D2		EQU	    0x21
+D3		EQU	    0x22
+	    
+BIRLER		EQU	    0x23
+ONLAR		EQU	    0x24
+SAYAC_BIRLER	EQU	    0x25
+SAYAC_ONLAR	EQU	    0x26	    
+;*********************************************************************************************	    
+	    ORG	    0x000
+    
+	    nop
+    
+	    GOTO    BASLA
+;*********************************************************************************************
+GECIKME
+	MOVLW	0xFF
+	MOVWF	D2
+	    
+LOOP2	MOVLW	0xFF
+	MOVWF	D1
+	
+LOOP1	DECFSZ	D1,F
+	GOTO	LOOP1
+	
+	DECFSZ	D2,F
+	GOTO	LOOP2
+	RETURN
+;*********************************************************************************************
+RAKAMLAR_CIFT
+	ADDWF	PCL,F
+	RETLW	b'00111111' ;0
+	RETLW	b'01011011' ;2
+	RETLW	b'01100110' ;4
+	RETLW	b'01111101' ;6	     
+	RETLW	b'01111111' ;8
+;*********************************************************************************************
+RAKAMLAR
+	ADDWF	PCL,F
+	RETLW	b'00111111' ;0
+	RETLW	b'00000110' ;1
+	RETLW	b'01011011' ;2
+	RETLW	b'01001111' ;3 
+	RETLW	b'01100110' ;4
+	RETLW	b'01101101' ;5
+	RETLW	b'01111101' ;6
+	RETLW	b'00000111' ;7 
+	RETLW	b'01111111' ;8
+	RETLW	b'01101111' ;9	
+;*********************************************************************************************	 	
+BASLA   
+	;PORTA AYARLA
+	BANKSEL	PORTA
+	CLRF	PORTA
+	
+	BANKSEL	TRISA
+	MOVLW	0x06
+	MOVWF	ADCON1
+	
+	MOVLW	b'00111100'
+	MOVWF	TRISA
+	
+	;PORTB AYARLA
+	
+	BANKSEL	TRISB
+	CLRF	TRISB
+	
+	BANKSEL	PORTB
+	CLRF	PORTB
+	
+	;SAYACLARI AYARLA
+	
+	MOVLW	0x00
+	MOVWF	BIRLER
+	
+	MOVLW	0x04
+	MOVWF	SAYAC_BIRLER
+	
+	MOVLW	0x00
+	MOVWF	ONLAR
+	
+	MOVLW	0x0A
+	MOVWF	SAYAC_ONLAR
+	
+	;BIRLER BASAMAGINI ARTTIR
+	
+DONGU1	MOVLW	b'00001001'
+	MOVWF	PORTA
+	INCF	BIRLER,F
+	MOVF	BIRLER,W
+	CALL	RAKAMLAR_CIFT
+	MOVWF	PORTB
+	CALL	GECIKME
+	
+	MOVLW	b'00001010'
+	MOVWF	PORTA
+	MOVF	ONLAR,W
+	CALL	RAKAMLAR
+	MOVWF	PORTB
+	CALL	GECIKME
+	DECFSZ	SAYAC_BIRLER
+	CALL	DONGU1
+	
+	;BIRLER VE SAYAC_BIRLER' ? ESK? HAL?NE GET?R
+	
+	MOVLW	0x00
+	MOVWF	BIRLER
+	
+	MOVLW	0x04
+	MOVWF	SAYAC_BIRLER
+	
+	;ONLAR BASAMAGINI ARTTIR
+	
+DONGU2	MOVLW	b'00000110'
+	MOVWF	PORTA
+	INCF	ONLAR,F
+	MOVF	ONLAR,W
+	CALL	RAKAMLAR
+	MOVWF	PORTB
+	CALL	GECIKME
+	DECFSZ	SAYAC_ONLAR
+	CALL	DONGU1
+	
+	;DEG?SKENLER? ESK? HAL?NE GET?R
+	
+	MOVLW	0x00
+	MOVWF	BIRLER
+	
+	MOVLW	0x04
+	MOVWF	SAYAC_BIRLER
+	
+	MOVLW	0x00
+	MOVWF	ONLAR
+	
+	MOVLW	0x0A
+	MOVWF	SAYAC_ONLAR
+	CALL	DONGU1
+	END
+
+

@@ -1,0 +1,63 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Fri Nov 05 22:17:46 2021
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000002    program   0x000004
+                   .org_1       code   0x000004    program   0x00009a
+.config_2007_BUILD/DEFAULT/PRODUCTION/BULLUP_       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000050      
+                            0x002007    0x002007      
+            82 out of 8454 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    BASLA   0x00002f    program     static C:\Users\Baho\Desktop\projeler\pullup_buton_PRJ.X\bullup_buton_PRJ.asm
+                  GECIKME   0x000010    program     static C:\Users\Baho\Desktop\projeler\pullup_buton_PRJ.X\bullup_buton_PRJ.asm
+                  KONTROL   0x000031    program     static C:\Users\Baho\Desktop\projeler\pullup_buton_PRJ.X\bullup_buton_PRJ.asm
+                     LOOP   0x000016    program     static C:\Users\Baho\Desktop\projeler\pullup_buton_PRJ.X\bullup_buton_PRJ.asm
+                    LOOP2   0x000014    program     static C:\Users\Baho\Desktop\projeler\pullup_buton_PRJ.X\bullup_buton_PRJ.asm
+                    LOOP3   0x000012    program     static C:\Users\Baho\Desktop\projeler\pullup_buton_PRJ.X\bullup_buton_PRJ.asm
+             PORTA_AYARLA   0x00001d    program     static C:\Users\Baho\Desktop\projeler\pullup_buton_PRJ.X\bullup_buton_PRJ.asm
+             PORTB_AYARLA   0x000026    program     static C:\Users\Baho\Desktop\projeler\pullup_buton_PRJ.X\bullup_buton_PRJ.asm
+                   TEKRAR   0x000050    program     static C:\Users\Baho\Desktop\projeler\pullup_buton_PRJ.X\bullup_buton_PRJ.asm
+                    YAK_0   0x00003e    program     static C:\Users\Baho\Desktop\projeler\pullup_buton_PRJ.X\bullup_buton_PRJ.asm
+                    YAK_1   0x000041    program     static C:\Users\Baho\Desktop\projeler\pullup_buton_PRJ.X\bullup_buton_PRJ.asm
+                    YAK_2   0x000044    program     static C:\Users\Baho\Desktop\projeler\pullup_buton_PRJ.X\bullup_buton_PRJ.asm
+                    YAK_3   0x000047    program     static C:\Users\Baho\Desktop\projeler\pullup_buton_PRJ.X\bullup_buton_PRJ.asm
+                    YAK_4   0x00004a    program     static C:\Users\Baho\Desktop\projeler\pullup_buton_PRJ.X\bullup_buton_PRJ.asm
+                    YAK_5   0x00004d    program     static C:\Users\Baho\Desktop\projeler\pullup_buton_PRJ.X\bullup_buton_PRJ.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  GECIKME   0x000010    program     static C:\Users\Baho\Desktop\projeler\pullup_buton_PRJ.X\bullup_buton_PRJ.asm
+                    LOOP3   0x000012    program     static C:\Users\Baho\Desktop\projeler\pullup_buton_PRJ.X\bullup_buton_PRJ.asm
+                    LOOP2   0x000014    program     static C:\Users\Baho\Desktop\projeler\pullup_buton_PRJ.X\bullup_buton_PRJ.asm
+                     LOOP   0x000016    program     static C:\Users\Baho\Desktop\projeler\pullup_buton_PRJ.X\bullup_buton_PRJ.asm
+             PORTA_AYARLA   0x00001d    program     static C:\Users\Baho\Desktop\projeler\pullup_buton_PRJ.X\bullup_buton_PRJ.asm
+             PORTB_AYARLA   0x000026    program     static C:\Users\Baho\Desktop\projeler\pullup_buton_PRJ.X\bullup_buton_PRJ.asm
+                    BASLA   0x00002f    program     static C:\Users\Baho\Desktop\projeler\pullup_buton_PRJ.X\bullup_buton_PRJ.asm
+                  KONTROL   0x000031    program     static C:\Users\Baho\Desktop\projeler\pullup_buton_PRJ.X\bullup_buton_PRJ.asm
+                    YAK_0   0x00003e    program     static C:\Users\Baho\Desktop\projeler\pullup_buton_PRJ.X\bullup_buton_PRJ.asm
+                    YAK_1   0x000041    program     static C:\Users\Baho\Desktop\projeler\pullup_buton_PRJ.X\bullup_buton_PRJ.asm
+                    YAK_2   0x000044    program     static C:\Users\Baho\Desktop\projeler\pullup_buton_PRJ.X\bullup_buton_PRJ.asm
+                    YAK_3   0x000047    program     static C:\Users\Baho\Desktop\projeler\pullup_buton_PRJ.X\bullup_buton_PRJ.asm
+                    YAK_4   0x00004a    program     static C:\Users\Baho\Desktop\projeler\pullup_buton_PRJ.X\bullup_buton_PRJ.asm
+                    YAK_5   0x00004d    program     static C:\Users\Baho\Desktop\projeler\pullup_buton_PRJ.X\bullup_buton_PRJ.asm
+                   TEKRAR   0x000050    program     static C:\Users\Baho\Desktop\projeler\pullup_buton_PRJ.X\bullup_buton_PRJ.asm
+
+

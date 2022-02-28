@@ -1,0 +1,4 @@
+Warning[205] C:\USERS\BAHO\DESKTOP\PROJELER\7_SEGMENT_YIGIT.X\7_SEGMENT_YIGIT.ASM 1 : Found directive in column 1. (list)
+Message[302] C:\USERS\BAHO\DESKTOP\PROJELER\7_SEGMENT_YIGIT.X\7_SEGMENT_YIGIT.ASM 88 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\BAHO\DESKTOP\PROJELER\7_SEGMENT_YIGIT.X\7_SEGMENT_YIGIT.ASM 90 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[302] C:\USERS\BAHO\DESKTOP\PROJELER\7_SEGMENT_YIGIT.X\7_SEGMENT_YIGIT.ASM 99 : Register in operand not in bank 0.  Ensure that bank bits are correct.

@@ -1,0 +1,48 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Mon Nov 08 23:04:00 2021
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x0000be
+                   .cinit    romdata   0x00005f    program   0x000004
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000060      
+            97 out of 8454 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    BASLA   0x000030    program     static C:\Users\Baho\Desktop\projeler\ucuncuPRJ.X\ucuncuPRJ.asm
+                   DONGU1   0x00003a    program     static C:\Users\Baho\Desktop\projeler\ucuncuPRJ.X\ucuncuPRJ.asm
+                  GECIKME   0x000002    program     static C:\Users\Baho\Desktop\projeler\ucuncuPRJ.X\ucuncuPRJ.asm
+                    LOOP1   0x000006    program     static C:\Users\Baho\Desktop\projeler\ucuncuPRJ.X\ucuncuPRJ.asm
+                    LOOP2   0x000004    program     static C:\Users\Baho\Desktop\projeler\ucuncuPRJ.X\ucuncuPRJ.asm
+             PORTA_AYARLA   0x000016    program     static C:\Users\Baho\Desktop\projeler\ucuncuPRJ.X\ucuncuPRJ.asm
+             PORTB_AYARLA   0x000020    program     static C:\Users\Baho\Desktop\projeler\ucuncuPRJ.X\ucuncuPRJ.asm
+                 RAKAMLAR   0x00000b    program     static C:\Users\Baho\Desktop\projeler\ucuncuPRJ.X\ucuncuPRJ.asm
+             SAYAC_AYARLA   0x000027    program     static C:\Users\Baho\Desktop\projeler\ucuncuPRJ.X\ucuncuPRJ.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  GECIKME   0x000002    program     static C:\Users\Baho\Desktop\projeler\ucuncuPRJ.X\ucuncuPRJ.asm
+                    LOOP2   0x000004    program     static C:\Users\Baho\Desktop\projeler\ucuncuPRJ.X\ucuncuPRJ.asm
+                    LOOP1   0x000006    program     static C:\Users\Baho\Desktop\projeler\ucuncuPRJ.X\ucuncuPRJ.asm
+                 RAKAMLAR   0x00000b    program     static C:\Users\Baho\Desktop\projeler\ucuncuPRJ.X\ucuncuPRJ.asm
+             PORTA_AYARLA   0x000016    program     static C:\Users\Baho\Desktop\projeler\ucuncuPRJ.X\ucuncuPRJ.asm
+             PORTB_AYARLA   0x000020    program     static C:\Users\Baho\Desktop\projeler\ucuncuPRJ.X\ucuncuPRJ.asm
+             SAYAC_AYARLA   0x000027    program     static C:\Users\Baho\Desktop\projeler\ucuncuPRJ.X\ucuncuPRJ.asm
+                    BASLA   0x000030    program     static C:\Users\Baho\Desktop\projeler\ucuncuPRJ.X\ucuncuPRJ.asm
+                   DONGU1   0x00003a    program     static C:\Users\Baho\Desktop\projeler\ucuncuPRJ.X\ucuncuPRJ.asm
+
+
